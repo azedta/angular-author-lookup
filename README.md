@@ -1,6 +1,51 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Ku1kJAFv)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=16916972&assignment_repo_type=AssignmentRepo)
-# Lab7 
-Access SpringBoot RESTFul API - in branch *server* 
+# ✍️ Angular Author Lookup
 
-Access Angular Client Application - in branch *client*
+A focused Angular feature build that adds an **Author Lookup** flow to an existing application:
+users can open an *Authors* screen, enter an author ID, and fetch/display the author’s information — with clear handling for “not found” cases.
+
+This project highlights practical UI routing, forms, and data-driven rendering patterns used in real Angular apps.
+
+---
+
+## ✨ Features
+
+- 🧭 Adds an **Authors** option to the navigation bar
+- 📝 Simple form to input an **Author ID**
+- 🔎 Queries a data source for the author record
+- ✅ Displays author details when found
+- ⚠️ Shows a friendly “not found” message when no result exists
+- 🧼 Clean UI state handling (loading / result / empty / error)
+
+---
+
+## 🛠 Tech Stack
+
+- **Angular**
+- **TypeScript**
+- **Angular Router**
+- **Forms / Reactive Forms** (depending on implementation)
+- **HTML / CSS**
+
+---
+
+## 🚀 Run Locally
+
+```bash
+npm install
+ng serve
+```
+
+Open: `http://localhost:4200`
+
+---
+
+## 🧠 What This Project Demonstrates
+
+- Navigation + route-driven content areas
+- Building a small feature end-to-end (UI → query → render)
+- Form handling and input validation
+- Conditional rendering for different data states
+
+---
+
+📌 *A clean Angular feature that mirrors “lookup pages” found in internal tools and dashboards.*
